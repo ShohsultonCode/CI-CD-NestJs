@@ -3,6 +3,7 @@ export const corsOptions: any = {
   origin: function (origin, callback) {
     if (!origin || whitelist.some((w) => origin.match(w))) {
       callback(null, true);
+      ///sss
     } else {
       callback(null, true);
     }
